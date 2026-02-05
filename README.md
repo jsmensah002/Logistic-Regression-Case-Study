@@ -15,4 +15,4 @@ Results from the balanced logistic model (class_weight = 'balanced', max_iter = 
 - R^2 (Trained 80% of the data) = 0.4232
 - R^2 (Tested 20% of the data) = 0.4123
 
-Key Insights: After applying class balancing, the logistic regression model learned to distinguish both classes (“Yes” and “No”), improving fairness and predictive reliability. This demonstrates that, in the presence of class imbalance, logistic regression should incorporate class weighting to prevent majority-class dominance and ensure meaningful performance across all classes.
+Key Insights: After applying class balancing, the logistic regression model learned to distinguish both classes (“Yes” and “No”), improving fairness and predictive reliability. This demonstrates that, in the presence of class imbalance, logistic regression should incorporate class weight and iterations to prevent majority-class dominance and ensure meaningful performance across all classes.
