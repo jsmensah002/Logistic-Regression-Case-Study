@@ -9,10 +9,12 @@ Results from the unbalanced logistic regression model:
 - R^2 (full dataset) = 0.9377
 - R^2 (Trained 80% of the data) = 0.93717
 - R^2 (Tested 20% of the data) = 0.93962
+- Timely response prediction = YES
 
 Results from the balanced logistic model (class_weight = 'balanced', max_iter = 1000):
 - R^2 (full dataset) = 0.4216
 - R^2 (Trained 80% of the data) = 0.4232
 - R^2 (Tested 20% of the data) = 0.4123
+- Timely response prediction = YES
 
 Key Insights: After applying class balancing, the logistic regression model learned to distinguish both classes (“Yes” and “No”), improving fairness and predictive reliability. This demonstrates that, in the presence of class imbalance, logistic regression should incorporate class weight and iterations to prevent majority-class dominance and ensure meaningful performance across all classes.
