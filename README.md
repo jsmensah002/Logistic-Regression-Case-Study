@@ -1,4 +1,4 @@
-QUESTION: If a customer in Florida (FL) submits a complain about an incorrect information on his/her payday loan via web, is that customer likely to get a timely response?
+QUESTION: If a customer in Florida (FL) submits a complain about an incorrect information on his/her payday loan via web, is that customer likely to get a timely response? Use the following features: Sub via, State, Products, and Issues.
 
 METHOD: 
 - Built a multivariate logistic regression model to predict if a customer is likely to get a timely response.
